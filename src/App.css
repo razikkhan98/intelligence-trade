@@ -1971,6 +1971,54 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
+.testimonial-slider div {
+  padding: 20px;
+  text-align: center;
+}
+.testimonial-slider p {
+  color: red;
+  font-size: 20px;
+}
+.slick-slide {
+  float: left;
+ /* If RTL Make This Right */
+  padding: 0;
+}
+.PrevArrow {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 45px;
+  height: 45px;
+  background: rgba(0, 0, 0, .50);
+  border: 0 none;
+  margin-top: -22.5px;
+  text-align: center;
+  font: 20px/45px FontAwesome;
+  color: #fff;
+  z-index: 5;
+}
+ .PrevArrow:before {
+  content: '\f104';
+}
+ .NextArrow {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  width: 45px;
+  height: 45px;
+  background: rgba(0, 0, 0, .50);
+  border: 0 none;
+  margin-top: -22.5px;
+  text-align: center;
+  font: 20px/45px FontAwesome;
+  color: #fff;
+  z-index: 5;
+}
+ .NextArrow:before {
+  content: '\f105';
+}
+
 /*==============================
 	Company
 ==============================*/
